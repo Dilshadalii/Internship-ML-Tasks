@@ -1,29 +1,60 @@
-# AI/ML Internship Tasks – Dilshad Ali
+# 📁 Internship Tasks – AI/ML Engineering
 
-This repository contains my submissions for the AI/ML Engineering Internship. Each folder includes one task with its code and explanation.
-
----
-
-## ✅ Task 1 – Iris Dataset Analysis
-- Explores the famous Iris dataset
-- Performs basic data analysis and visualization
-- Uses Seaborn and Pandas
-
-📂 Folder: `task-1-iris-analysis/`
+This repository contains 3 tasks completed for the **AI/ML Engineering Internship** at **DevelopersHub Corporation**. Each task showcases core data science and machine learning skills including data preprocessing, modeling, evaluation, and visualization.
 
 ---
 
-## ✅ Task 2 – Predict Stock Price
-- Predicts the next day's stock closing price using Linear Regression
-- Uses Apple stock data from Yahoo Finance
-- Includes data fetching, training, evaluation, and prediction
+## ✅ Task 1: Iris Dataset Exploration
 
-📂 Folder: `task-2-stock-prediction/`
+**Objective:**  
+Analyze the classic Iris dataset to explore relationships between flower features and species.
+
+**Key Skills:**  
+- Data loading and visualization using `seaborn` and `matplotlib`  
+- Statistical summary with `pandas`  
+- Pairplots and boxplots for feature analysis  
+
+**File:**  
+📄 `Task1_Iris_Analysis.ipynb`
 
 ---
 
-## 🧠 Tools & Libraries Used
-- Python (Jupyter Notebook)
-- pandas, matplotlib, seaborn
-- yfinance
-- scikit-learn
+## ✅ Task 2: Stock Price Prediction (Short-Term)
+
+**Objective:**  
+Predict the **next day's closing price** of a selected stock using historical data from Yahoo Finance.
+
+**Key Skills:**  
+- API-based data fetching using `yfinance`  
+- Feature engineering with Open, High, Low, Volume  
+- Model training using **Linear Regression**  
+- Visualizing actual vs predicted prices  
+- Predicting future price based on live/latest data  
+
+**File:**  
+📄 `Task2_Stock_Price_Prediction.ipynb`
+
+---
+
+## ✅ Task 3: Heart Disease Prediction
+
+**Objective:**  
+Build a model to predict whether a person is at risk of heart disease based on their medical data.
+
+**Key Skills:**  
+- Data cleaning and exploratory analysis  
+- Classification using **Logistic Regression**  
+- Confusion matrix and ROC-AUC evaluation  
+- Feature importance analysis  
+- Real-world prediction on new patient data  
+
+**File:**  
+📄 `Task3_HeartDiseasePrediction.ipynb`
+
+---
+
+## 🔧 How to Run
+
+1. Clone or download the repository.
+2. Open notebooks using **Jupyter Notebook** or **JupyterLab**.
+3. Install required packages:
